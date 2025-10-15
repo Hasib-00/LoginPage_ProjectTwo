@@ -11,6 +11,8 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
 
     private lateinit var signuptv: TextView
+    private lateinit var forgetpasstv : TextView
+
 
 
 
@@ -25,6 +27,13 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, SignUppage::class.java)
             startActivity(intent)
         }
+
+        forgetpasstv =findViewById(R.id.forgetpassTv)
+        forgetpasstv.setOnClickListener {
+            var intent = Intent(this@MainActivity, ForgotPageOne::class.java)
+            startActivity(intent)
+        }
+
 
 
 

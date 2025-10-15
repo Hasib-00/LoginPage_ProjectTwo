@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginPage_Two">
         <activity
+            android:name=".ForgotPageOne"
+            android:exported="false" />
+        <activity
             android:name=".SignUppage"
             android:exported="false" />
         <activity
