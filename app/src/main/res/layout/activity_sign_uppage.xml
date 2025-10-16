@@ -134,6 +134,7 @@
 
         android:fontFamily="sans-serif-smallcaps"
         android:text="Sign Up"
+        android:textColor="@color/white"
         android:textSize="20.sp"
         app:layout_constraintEnd_toEndOf="@+id/inputrePassword"
         app:layout_constraintStart_toStartOf="@+id/inputrePassword"
@@ -158,14 +159,14 @@
         android:id="@+id/signTv"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="104dp"
-        android:layout_marginEnd="25dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="96dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Sign In"
-        android:textStyle="bold"
         android:textColor="@color/white"
         android:textSize="19.dp"
-        app:layout_constraintEnd_toEndOf="@+id/signupbtn"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/signupbtn" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

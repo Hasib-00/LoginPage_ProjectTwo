@@ -83,6 +83,7 @@
         android:backgroundTint="#20FF0000"
         android:fontFamily="sans-serif-smallcaps"
         android:text="Reset Password"
+        android:textColor="@color/white"
         android:textSize="20.sp"
         app:layout_constraintEnd_toEndOf="@+id/inputEmail"
         app:layout_constraintStart_toStartOf="@+id/inputEmail"
